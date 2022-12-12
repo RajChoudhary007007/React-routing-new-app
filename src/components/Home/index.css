@@ -1,0 +1,31 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+}
+.profile-heading {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 700;
+  color: #12022f;
+}
+.profile-description {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #9aa5b1;
+  margin-top: 0px;
+}

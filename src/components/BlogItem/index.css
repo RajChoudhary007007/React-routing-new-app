@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.list-container {
+  list-style-type: none;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item-container {
+    flex-direction: row;
+  }
+}
+.title-heading {
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 700;
+  color: #12022f;
+}
+@media screen and (min-width: 768px) {
+  .title-heading {
+    font-size: 20px;
+  }
+}
+.list-publishedDate {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #9aa5b1;
+}
+@media screen and (min-width: 768px) {
+  .list-publishedDate {
+    font-size: 17px;
+  }
+}
+.description {
+  font-family: roboto;
+  font-size: 10px;
+  font-weight: 700;
+  color: #9aa5b1;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 16px;
+  }
+}
